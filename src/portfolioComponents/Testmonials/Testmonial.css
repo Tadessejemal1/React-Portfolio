@@ -1,0 +1,102 @@
+.t-main{
+  padding:  0 3rem 0 3rem;;
+  height: 50vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 0.2rem;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  background-image: url('../../assets/Home/bg.jpg');
+  text-align: center;
+ 
+}
+#testimonial {
+  color: var(--color-white);
+}
+.t-heading{
+  align-self: start;
+  text-align: center;
+  justify-content: center;
+}
+.t-heading>*{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.t-heading h1{
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.t-blur1{
+  left: 38rem;
+  top: 16rem;
+}
+.t-blur2{
+  top: 9rem;
+  left: 0;
+}
+
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+  width: 30rem;
+  height: 12rem;
+  color: var(--color-white);
+  /* styles same as work.css */
+  background: rgba(255, 255, 255, 0.26);
+  border: 7px solid var(--blueCard);
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  
+}
+.testimonial>img{
+  width: 5rem;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  
+
+}
+.testimonial>span{
+  color: var(--color-white);
+}
+
+
+/* slider */
+.t-main .swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 1px;
+}
+
+.t-main .swiper-slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.t-main .swiper-pagination-bullet-active{
+  background: var(--color-primary);
+}
+.work {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+@media screen and (max-width: 600px){
+  .t-main{
+      padding: 0;
+      
+  }
+  .testimonial>img{
+      width: 70px;
+      height: 70px;
+      
+  }
+}

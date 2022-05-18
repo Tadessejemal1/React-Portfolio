@@ -1,0 +1,132 @@
+
+.contact {
+    height: 100vh;
+    background-image: url('../../assets/Home/bg.jpg');
+    margin-top: 10px;
+}
+.contact-bg {
+    width: 20px;
+    height: 100%;
+    background-color: #59b256;
+    position: absolute;
+}
+.contact-wrapper {
+    padding: 50px;
+    display: flex;
+}
+.contact-left {
+    flex: 1;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.contact-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.contact-info {
+   padding: 50px;
+}    
+.contact-title {
+    font-size: 60px;
+    width: 80%;
+  }
+  
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+  }
+  .contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+  .contact-desc {
+    font-weight: 200;
+    color: aliceblue;
+    margin: 10px 10px;
+
+  }
+  
+  form {
+    margin-top: 40px;
+    flex-direction: column;
+    margin-right: 100px;
+    display: flex;
+    
+  }
+  
+  input {
+    width: 70%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    resize: horizontal;
+  }
+  
+  button {
+    border: none;
+    padding: 15px;
+    background-color: #59b256;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .contact-wrapper {
+      flex-direction: column;
+      padding: 0px 50px;
+    }
+  
+    .contact-title {
+      font-size: 30px;
+    }
+  
+    .contact-info-item {
+      margin: 20px 0px;
+      width: 100%;
+    }
+  
+    .contact-desc {
+      display: flex;
+      padding: 40px;
+    }
+  
+    form {
+      margin: 0px 0px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+      margin-right: 100px;
+    }
+  
+    input {
+      width: 50%;
+      height: 40px;
+      margin: 10px;
+      margin-left: 0;
+    }
+  
+    button {
+      margin-top: 10px;
+    }
+  }
