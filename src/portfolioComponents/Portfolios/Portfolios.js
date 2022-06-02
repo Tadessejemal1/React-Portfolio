@@ -4,7 +4,7 @@ import IMG2 from '../../assets/Home/img/tindog.png';
 import IMG3 from '../../assets/Home/img/restaurant.png';
 import IMG4 from '../../assets/Home/img/Restaurant 2.PNG';
 import IMG5 from '../../assets/Home/img/Drum.PNG';
-import IMG6 from '../../assets/Home/img/Restaurant 2.PNG';
+import IMG6 from '../../assets/Home/img/Dashbord b.PNG';
 import './Portfolios.css';
 
 const data = [
@@ -52,8 +52,8 @@ const data = [
       id:6,
       image:IMG6, 
       title:'Dashboard',
-      github:'https://github.com/Tadessejemal1/Dashboard.git',
-      demo:"'https://tadessejemal1.github.io/Bootstrap-4-UI-project/'"
+      github:'https://github.com/Tadessejemal1/React-Dashbord.git',
+      demo:"''"
 
   }
 ]
