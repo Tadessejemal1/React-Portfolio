@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.215036ad.css",
+    "main.js": "/Portfolio/static/js/main.018b3745.js",
+    "static/js/787.202b8111.chunk.js": "/Portfolio/static/js/787.202b8111.chunk.js",
+    "static/media/Restaurant 2.PNG": "/Portfolio/static/media/Restaurant 2.09657f96c94ec02de1c3.PNG",
+    "static/media/Food.PNG": "/Portfolio/static/media/Food.6f8e7ecae8172b36f2a1.PNG",
+    "static/media/restaurant.png": "/Portfolio/static/media/restaurant.eafd758994fd05f5fcbc.png",
+    "static/media/tindog.png": "/Portfolio/static/media/tindog.38c49a50d7a7d9844c49.png",
+    "static/media/Poppins-Thin.ttf": "/Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/Portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/Portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/Portfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/Portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/Portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/Portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/Dashbord b.PNG": "/Portfolio/static/media/Dashbord b.4848ab6a7c01a180e8db.PNG",
+    "static/media/Drum.PNG": "/Portfolio/static/media/Drum.058c92f46d42e833c20a.PNG",
+    "static/media/bg.jpg": "/Portfolio/static/media/bg.d580cd375921d13ae60d.jpg",
+    "static/media/profile2.jpg": "/Portfolio/static/media/profile2.7a3daadaa345e0653757.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.215036ad.css.map": "/Portfolio/static/css/main.215036ad.css.map",
+    "main.018b3745.js.map": "/Portfolio/static/js/main.018b3745.js.map",
+    "787.202b8111.chunk.js.map": "/Portfolio/static/js/787.202b8111.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.215036ad.css",
+    "static/js/main.018b3745.js"
+  ]
+}
