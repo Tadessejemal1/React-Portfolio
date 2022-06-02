@@ -59,7 +59,7 @@ function Home() {
                     {""}
                     Hire Me{''}
                   </button>
-                  <a href = 'tada.pdf' download = 'tada .pdf'>                    
+                  <a href = 'resume 1.pdf' download = 'Resume resume 1.pdf'>                    
                     <button className = 'btn highlighted-btn'>Get Resume </button>
                   </a>
               </div>   

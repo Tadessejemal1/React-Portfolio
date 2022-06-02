@@ -11,7 +11,7 @@
   .profile-parent {
     display: flex;
     align-items: center;
-    color: aliceblue;
+    color: var(--color-white);
   }
   .profile-details-name {
     font-size: 24px;
@@ -23,7 +23,7 @@
     font-family: cursive;
   }
   .primary-text {
-    color:(--white);
+    color: var(--color-white);
   }
   .highlighted-text {
     color: #ff5823;
@@ -69,6 +69,7 @@
     padding: 8px;
     padding-left: 0px;
   }
+ 
   
   .colz .colz-icon i:hover {
     transform: scale(1.5);

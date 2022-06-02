@@ -1,9 +1,13 @@
 #portfolios {
     text-align: center;
     background-image: url('../../assets/Home/bg.jpg');;
-    margin-top: 2rem;
+    margin-top: 0rem;
     color: var(--color-white);
-    margin-bottom: 1.2rem;
+    margin-bottom: 0rem;
+}
+#portfolios h5 {
+    font-size: 40px;
+    padding-top: 1.2rem;
 }
 .portfolio-container {
     display: grid;
@@ -12,7 +16,8 @@
     column-gap: 1px;
     padding: 0 15% 0 15%;
     color: var(--color-white);
-    
+    margin-bottom: 0.2rem;
+    margin-top: 2rem;
 }
 
 .portfolio-item {
@@ -21,7 +26,8 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    width: 90%;
+    width: 85%;
+    height: 90%;
 }
 
 .portfolio-item:hover {
@@ -40,10 +46,14 @@
 .portfolio-item-cta {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-white);
+}
+.btn {
+    color: var(--color-white);
 }
 .portfolio-item p {
-    margin: 1.2rem 0 2rem;
+    margin: 1rem 0 1.2rem;
 
 }
 
@@ -51,13 +61,14 @@
     .portfolio-container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
-        
+        padding-left: 10%;
     }
 }
 @media screen and (max-width:600px) {
     .portfolio-container {
         grid-template-columns: 1fr;
         gap: 1rem;
-        margin-left: 1.2rem;
+        margin-left: 0.5rem;
+        padding-left: 10%;
     }
 }

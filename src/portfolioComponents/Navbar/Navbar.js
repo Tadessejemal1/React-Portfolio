@@ -1,33 +1,43 @@
 import React from 'react';
-import './Navbar.css';
+import { GiHamburgerMenu } from "react-icons/gi";
+import { MdOutlineMenu } from 'react-icons/md'
+import'./Navbar.css';
 
-function Navbar() {
+const Navbar = () => {
+  const [toggleMenu,setToggleMenu] = React.useState(false);
   return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Profile</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ml-auto" >
-                <li class="nav-item active">
-                    <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Aboutme</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Testmonial">Testmonial</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Contactme</a>
-                </li>
-                </ul>
+    <div className='app__navbar'>
+        <nav className='app__navbar'>
+            <div className='app__navbar_left'>
+                <h1>Portfolio</h1>
             </div>
-            </nav>
-        </div>
-    )
+            <ul className='app__navbar-link'>
+                <li className='p_open'><a href='#home'>Home</a></li>
+                <li className='p_open'><a href='#about'>About</a></li>
+                <li className='p_open'><a href='#services'>Services</a></li>
+                <li className='p_open'><a href='#portfolios'>Portfolios</a></li>
+                <li className='p_open'><a href='#testmonials'>Testmonials</a></li>
+                <li className='p_open'><a href='#contact'>Contact</a></li>
+            </ul>
+            <div className='app__navbar-smallscreen'>
+              <GiHamburgerMenu color='#fff' className='small_screen' fontSize={27} onClick={() => setToggleMenu(true)} />
+              {toggleMenu && (
+                <div className='app__navbar-smallscren_overlay flex__center slide-bottom'>
+                  <MdOutlineMenu color='#fff' className='overlay__close' fontSize={27} onClick={() => setToggleMenu(false)} />
+                  <ul className='app__navbar-smallscreen-links'>
+                    <li className='p_open'><a href='#home'>Home</a></li>
+                    <li className='p_open'><a href='#about'>About</a></li>
+                    <li className='p_open'><a href='#services'>Services</a></li>
+                    <li className='p_open'><a href='#portfolios'>Portfolios</a></li>
+                    <li className='p_open'><a href='#testmonial'>Testmonial</a></li>
+                    <li className='p_open'><a href='#contact'>Contact</a></li>
+                  </ul>
+                </div>
+              )}
+            </div>
+        </nav>
+    </div>
+  )
 }
 
 export default Navbar;

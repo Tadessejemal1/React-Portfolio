@@ -3,13 +3,20 @@
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
     padding: 0 15% 0 15%;
-    color: var(--color-white);
-    
-    
+    color: var(--color-white); 
+    margin-top: 1.5rem;  
 }
-#servies {
+.app_services {
     background-image: url('../../assets/Home/bg.jpg');
     text-align: center;
+    color: var(--color-white); 
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+}
+.app_services h2 {
+    font-size: 40px;
+    padding-top: 1.2rem;
+
 }
 .servies {
     background: var(--color-bg-variant);
@@ -36,12 +43,12 @@
     text-align: center;
 }
 .servies-list {
-    padding: 2rem;
+    padding: 1.2rem;
 }
 .servies-list li{
     display: flex;
     gap: 1rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
 }
 .servies-list-icon {
     color: var(--color-primary);

@@ -4,8 +4,8 @@ import { BiCheck } from 'react-icons/bi';
 
 const Services = () => {
   return (
-    <section>
-        <h2>Serviees</h2>
+    <section className='app_services' id='servies'>
+        <h2>Services</h2>
         <div className='servies-container'>
             <article className='servies'>
                 <div className='servies-head'>
@@ -14,23 +14,23 @@ const Services = () => {
                 <ul className='servies-list'>
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Information Architecture</p>
                     </li>  
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Wireframes</p>
                     </li> 
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Design System Dev't</p>
                     </li> 
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Sciencesoft delivers</p>
                     </li> 
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Build interfaces</p>
                     </li> 
                 </ul>
 
@@ -42,23 +42,23 @@ const Services = () => {
                 <ul className='servies-list'>
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Drupal web Development</p>
                     </li>  
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>HTML5 web Development</p>
                     </li> 
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Responsive Design</p>
                     </li> 
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>React.js web Development</p>
                     </li> 
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Social Media Management</p>
                     </li> 
                 </ul>
 
@@ -70,23 +70,23 @@ const Services = () => {
                 <ul className='servies-list'>
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Blog Posts</p>
                     </li>  
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Intographics</p>
                     </li> 
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Content Optimization</p>
                     </li> 
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Content Development</p>
                     </li> 
                     <li>  
                      <BiCheck className='servies-list-icons' />
-                     <p>Lorem,ipsum dolor</p>
+                     <p>Videos</p>
                     </li> 
                 </ul>
 

@@ -4,14 +4,14 @@
     background-image: url('../../assets/Home/bg.jpg');
     color: var(--color-white);
     padding-top: 2rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.15rem;
 }
 .contact-container {
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
     padding-left: 15%;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.2rem;
     margin-top: 0.5rem;
     
 }

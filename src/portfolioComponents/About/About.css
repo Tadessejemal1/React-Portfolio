@@ -133,12 +133,19 @@ img {
       font-weight: 400;
       color: black;
   }
+  .header_skill-head {
+      margin-top: 0.5rem;
+  }
+  #skill-section {
+    margin-top: 0.5rem;
+  }
   .skill-item {
       flex: 0 0 100%;
       max-width: 100%;
       margin-bottom: 30px;
       background-color: aliceblue;
       padding: 1% 2%;
+      margin-top: 0.15rem;
   }
   .skill-item h5 {
       line-height: 40px;
@@ -207,18 +214,93 @@ img {
     border-radius: 25px;
 }
 .skill-bar .bar .html {
-    width: 90%;
+    width: 92%;
     animation: html 3s;
 }
 @keyframes html {
     0% {
         width: 0;
     }100% {
+        width:92%
+    }
+}
+.skill-bar .bar .css {
+    width: 88%;
+    animation: css 3s;
+}
+@keyframes css {
+    0% {
+        width: 0;
+    }100% {
+        width:88%
+    }
+}
+.skill-bar .bar .javascript {
+    width: 80%;
+    animation: javascript 3s;
+}
+@keyframes javascript {
+    0% {
+        width: 0;
+    }100% {
+        width:80%
+    }
+}
+.skill-bar .bar .bootstrap {
+    width: 85%;
+    animation: bootstrapt 3s;
+}
+@keyframes bootstrap {
+    0% {
+        width: 0;
+    }100% {
+        width:85%
+    }
+}
+.skill-bar .bar .react {
+    width: 80%;
+    animation: react 3s;
+}
+@keyframes react {
+    0% {
+        width: 0;
+    }100% {
+        width:80%
+    }
+}
+.skill-bar .bar .python {
+    width: 70%;
+    animation: python 3s;
+}
+@keyframes python {
+    0% {
+        width: 0;
+    }100% {
+        width:70%
+    }
+}
+.skill-bar .bar .latex {
+    width: 90%;
+    animation: latex 3s;
+}
+@keyframes latex {
+    0% {
+        width: 0;
+    }100% {
         width:90%
     }
-
 }
-
+.skill-bar .bar .github {
+    width: 95%;
+    animation: github 3s;
+}
+@keyframes github {
+    0% {
+        width: 0;
+    }100% {
+        width:95%
+    }
+}
 .row {
     display: flex;
     width: 95%;
@@ -288,11 +370,12 @@ img {
 .timeline-date,
 .fa {
    margin-right: 5px;
+   
 }
 
 .timeline-title {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 .timeline {
@@ -307,22 +390,7 @@ img {
     text-align: justify;
     color: var(--text-black-700);
 }
-.service .service-item {
-    margin-bottom: 30px;
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-}
-.service .service-item .service-item-inner {
-    background-color: var(--text-black-100);
-    border: 1px solid var(--text-black-50);
-    border-radius: 10px;
-    padding: 30px 15px;
-    text-align: center;
-    transition: all 0.35 ease;
-}
-.service-item-inner:hover {
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-}
+
 .icon {
     height: 60px;
     width: 60px;
@@ -333,16 +401,8 @@ img {
     text-align: center;
     transition: all 0.3s ease;
 }
-.fa {
-    font-size: 40px;
-    line-height: 60px;
-    color: var(--skin-color);
-    transition: all 0.3s ease;
-}
-.service-item-inner:hover .icon .fa {
-    font-size: 25px;
-    color: #fff;
-}
+
+
 /* RESPONSIVE */
 @media screen and (max-width:1024px) {
     

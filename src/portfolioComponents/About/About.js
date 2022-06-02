@@ -1,6 +1,5 @@
 import React from 'react';
 import "./About.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Profile from '../../assets/Home/profile2.jpg';
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -29,19 +28,21 @@ function About() {
                   <article className='about-card'>
                     <FiUsers className='about-icon'/>
                     <h5>Clients</h5>
-                    <small>10+</small>
+                    <small>5+</small>
                   </article>
                   <article className='about-card'>
                     <VscFolderLibrary className='about-icon'/>
                     <h5>Project</h5>
-                    <small>20+</small>
+                    <small>10+</small>
                   </article>
                 </div>
                 <div className ='about-text'>
                   <p>
-                  There are many variations of passages of Lorem Ipsum available,but the majority have suffered in some form, by injected humour,
-                  or randomised words which dont look even slightly believable. If
-                  you are going to use a passage of Lorem Ipsum,
+                   I am a highly motivated individual and Innovative Front-End Developer with two years of experience building and maintaining responsive websites.
+                   Proficient in :HTML,CSS,jQuery,JavaScript, React; plus, modern libraries and frameworks.I am a multidisciplinary designer.
+                    Building stable and maintainable codebase using React.Created user-centric e-commerce sites for small business owners using various web
+                   technologies.Collaborating closely with the team to support projects during all phases of delivery.
+
                   </p>
                   <a href='#contact' className='btn btn-primary'>Let's Talk</a>
                 </div>
@@ -58,7 +59,7 @@ function About() {
               <div className='skill-bar'>
                 <div className='info'>
                   <p>HTML</p>
-                  <p>90%</p>
+                  <p>92%</p>
                 </div>
                 <div className='bar'>
                   <span className='html'></span>
@@ -67,46 +68,46 @@ function About() {
               <div className='skill-bar'>
                 <div className='info'>
                   <p>CSS</p>
-                  <p>90%</p>
+                  <p>88%</p>
                 </div>
                 <div className='bar'>
-                  <span className='html'></span>
+                  <span className='css'></span>
                 </div>
               </div>
               <div className='skill-bar'>
                 <div className='info'>
                   <p>JavaScript</p>
-                  <p>90%</p>
+                  <p>80%</p>
                 </div>
                 <div className='bar'>
-                  <span className='html'></span>
+                  <span className='javascript'></span>
                 </div>
               </div>
               <div className='skill-bar'>
                 <div className='info'>
                   <p>Bootstrap</p>
-                  <p>90%</p>
+                  <p>85%</p>
                 </div>
                 <div className='bar'>
-                  <span className='html'></span>
+                  <span className='bootstrap'></span>
                 </div>
               </div>
               <div className='skill-bar'>
                 <div className='info'>
                   <p>React</p>
-                  <p>90%</p>
+                  <p>80%</p>
                 </div>
                 <div className='bar'>
-                  <span className='html'></span>
+                  <span className='react'></span>
                 </div>
               </div>
               <div className='skill-bar'>
                 <div className='info'>
                   <p>Python</p>
-                  <p>90%</p>
+                  <p>70%</p>
                 </div>
                 <div className='bar'>
-                  <span className='html'></span>
+                  <span className='python'></span>
                 </div>
               </div>
               <div className='skill-bar'>
@@ -115,16 +116,16 @@ function About() {
                   <p>90%</p>
                 </div>
                 <div className='bar'>
-                  <span className='html'></span>
+                  <span className='latex'></span>
                 </div>
               </div>
               <div className='skill-bar'>
                 <div className='info'>
                   <p>GITHUB</p>
-                  <p>90%</p>
+                  <p>95%</p>
                 </div>
                 <div className='bar'>
-                  <span className='html'></span>
+                  <span className='github'></span>
                 </div>
               </div>
             </div>
@@ -145,27 +146,27 @@ function About() {
                         </h3>  
                         <h4 className='timeline-title'>Degree</h4>
                         <p className='timeline-text'> I am gratuated from mekelle university Mechanical Engineering 
-                           Department and I am Good competate <br></br>
+                           Department <br></br>
                         </p>
                       </div>
                       <div className='timeline-item'>
                         <div className='circle-dot'></div>
                         <h3 className='timeline-date'>
-                          <i className='fa fa-calendar'>2015-2016</i>
-                        </h3>  
-                        <h4 className='timeline-title'>Degree</h4>
-                        <p className='timeline-text'>
-                          I am gratuated from mekelle university Mechanical Engineering Department and I am Good competate 
-                        </p>
-                      </div>
-                      <div className='timeline-item'>
-                        <div className='circle-dot'></div>
-                        <h3 className='timeline-date'>
-                          <i className='fa fa-calendar'>2016</i>
+                          <i className='fa fa-calendar'>2016-2018</i>
                         </h3>  
                         <h4 className='timeline-title'>Master</h4>
                         <p className='timeline-text'>
-                          I am gratuated from mekelle university Mechanical Engineering Department and I am Good competate 
+                          I am gratuated MSC in Thermal Engineering From Bahirdar University
+                        </p>
+                      </div>
+                      <div className='timeline-item'>
+                        <div className='circle-dot'></div>
+                        <h3 className='timeline-date'>
+                          <i className='fa fa-calendar'>2016-2020</i>
+                        </h3>  
+                        <h4 className='timeline-title'>Degree</h4>
+                        <p className='timeline-text'>
+                          I am gratuated from Bahirdar University in Computer Science 
                         </p>
                       </div>
                     </div>
@@ -180,91 +181,37 @@ function About() {
                     <div className='timeline-item'>
                       <div className='circle-dot'></div>
                       <h3 className='timeline-date'>
-                        <i className='fa fa-calendar'>2015</i>
-                      </h3>  
-                      <h4 className='timeline-title'>Degree</h4>
-                      <p className='timeline-text'> I am gratuated from mekelle university Mechanical Engineering 
-                         Department and I am Good competate <br></br>
-                      </p>
-                    </div>
-                    <div className='timeline-item'>
-                      <div className='circle-dot'></div>
-                      <h3 className='timeline-date'>
                         <i className='fa fa-calendar'>2015-2016</i>
                       </h3>  
-                      <h4 className='timeline-title'>Degree</h4>
-                      <p className='timeline-text'>
-                        I am gratuated from mekelle university Mechanical Engineering Department and I am Good competate 
+                      <h4 className='timeline-title'>Assistance Lecturer</h4>
+                      <p className='timeline-text'> I have One years Work Experience as Assistance Lecturer Position from DebreTabor University in Mechanical Engineering 
+                         Department. <br></br>
                       </p>
                     </div>
                     <div className='timeline-item'>
                       <div className='circle-dot'></div>
                       <h3 className='timeline-date'>
-                        <i className='fa fa-calendar'>2016</i>
+                        <i className='fa fa-calendar'>2018-present</i>
                       </h3>  
-                      <h4 className='timeline-title'>Master</h4>
+                      <h4 className='timeline-title'>Lecturer</h4>
                       <p className='timeline-text'>
-                        I am gratuated from mekelle university Mechanical Engineering Department and I am Good competate 
+                       I have 4 year's Work Experience as Lecturer Position from DebreTabor University in Mechanical Engineering 
+                       Department. <br></br>
+                      </p>
+                    </div>
+                    <div className='timeline-item'>
+                      <div className='circle-dot'></div>
+                      <h3 className='timeline-date'>
+                        <i className='fa fa-calendar'>2020-Present</i>
+                      </h3>  
+                      <h4 className='timeline-title'>Front End Developer</h4>
+                      <p className='timeline-text'>
+                       I have two years of work experience in the design of Responsive websites using Front End Technology. <br></br>
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              </div>
-              <div className='service'>
-                <div className='container'>
-                  <div className='row'>
-                    <div className='section-title'>
-                      <h2>Servies</h2>
-                    </div>
-                  </div>
-                  <div className='row'>
-                    <div className='service-item-inner'>
-                      <div className='icon'>
-                        <FontAwesomeIcon icon="fa-solid fa-mobile-screen-button" />
-                        <i className='fa fa-laptop-code'></i>
-                      </div>
-                      <h4>Web Design</h4>
-                      <p>Lorem,ipsum dolor sit amet consectetur</p>
-                    </div>
-                    <div className='service-item-inner'>
-                      <div className='icon'>
-                        <FontAwesomeIcon icon="fa-solid fa-laptop-code" />
-                        <i className='fa fa-laptop-code'></i>
-                      </div>
-                      <h4>Web Design</h4>
-                      <p>Lorem,ipsum dolor sit amet consectetur</p>
-                    </div>
-                    <div className='service-item-inner'>
-                      <div className='icon'>
-                        <i className='fa fa-palette'></i>
-                      </div>
-                      <h4>Web Design</h4>
-                      <p>Lorem,ipsum dolor sit amet consectetur</p>
-                    </div>
-                    <div className='service-item-inner'>
-                      <div className='icon'>
-                        <i className='fa fa-code'></i>
-                      </div>
-                      <h4>Web Design</h4>
-                      <p>Lorem,ipsum dolor sit amet consectetur</p>
-                    </div>
-                    <div className='service-item-inner'>
-                      <div className='icon'>
-                        <i className='fa fa-search'></i>
-                      </div>
-                      <h4>Web Design</h4>
-                      <p>Lorem,ipsum dolor sit amet consectetur</p>
-                    </div>
-                    <div className='service-item-inner'>
-                      <div className='icon'>
-                        <i className='fa fa-bullhorn'></i>
-                      </div>
-                      <h4>Web Design</h4>
-                      <p>Lorem,ipsum dolor sit amet consectetur</p>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             
