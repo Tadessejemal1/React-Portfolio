@@ -1,14 +1,17 @@
 import React from 'react';
+import img1 from '../../assets/Home/img/certification1.PNG';
+import img2 from '../../assets/Home/img/certification2.PNG';
+import img3 from '../../assets/Home/img/certification3.PNG';
 import './Certification.css';
 
 
-const IntroAboutme = () => {
+const Certification = () => {
   return (
       <div>
           <div className="cerification">
             <h1>Certification</h1>
             <div className='a-award'> 
-            <img src='image/HTML,CSS and JavaScript.PNG' alt="" className="a-award-img" />
+            <img src={img1} alt="" className="a-award-img" />
             <div className="a-award-texts">
               <h4 className="a-award-title">Coursera Certification Awards 2021</h4>
               <div className="a-award-desc">
@@ -20,7 +23,7 @@ const IntroAboutme = () => {
             </div>
             </div>
             <div className='a-award'> 
-              <img src='image/Bootstrap.PNG' alt="" className="a-award-img" />
+              <img src={img2} alt="" className="a-award-img" />
               <div className="a-award-texts">
                 <h4 className="a-award-title">Coursera Certification Awards 2021</h4>
                 <div className="a-award-desc">
@@ -34,7 +37,7 @@ const IntroAboutme = () => {
               </div>  
             </div>
             <div className='a-award'> 
-              <img src='image/React.PNG' alt="" className="a-award-img" />
+              <img src= {img3} alt="" className="a-award-img" />
               <div className="a-award-texts">
                 <h4 className="a-award-title">Coursera Certification Awards 2021</h4>
                 <div className="a-award-desc">
@@ -53,7 +56,7 @@ const IntroAboutme = () => {
   )
 }
 
-export default IntroAboutme;
+export default Certification;
 
 
 

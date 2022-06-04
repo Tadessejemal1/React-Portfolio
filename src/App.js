@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import Navbar from './portfolioComponents/Navbar/Navbar';
-import Home from './portfolioComponents/Resume/Home';
+import Home from './portfolioComponents/Home/Home';
 import Testmonial from './portfolioComponents/Testmonials/Testmonial';
 import About from './portfolioComponents/About/About';
 import Certification from './portfolioComponents/Certification/Certification';
