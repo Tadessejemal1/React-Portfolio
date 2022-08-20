@@ -1,3 +1,12 @@
+### Personal-Portfolio
+build this portfoio with HTML,CSS and React
+
+### Screenshoot
+
+![image](https://user-images.githubusercontent.com/85793292/185746505-c5daa9d6-f096-4623-922b-d995ffc2c57f.png)
+
+![image](https://user-images.githubusercontent.com/85793292/185746519-fbbdaae5-97e5-4dbb-9296-cc152fccabec.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -63,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+https://tadessejemal1.github.io/Portfolio/
 
 ### `npm run build` fails to minify
 
