@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     list-style: none;
+    color: var(--color-white);
 }
 .app__navbar-link li {
     margin:0 1rem;
