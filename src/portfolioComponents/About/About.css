@@ -17,14 +17,14 @@ img {
   margin-right: 100px;
   font-weight: 700;
   text-align: center;
-  font-size: 24px;
+  font-size: 40px;
   font-family: Montserrat, sans-serif;
   color: #fff;
 }
 
 .about-span {
-  color: brown;
-  font-size: 24px;
+  color: #e74d06;
+  font-size: 20px;
   margin-left: 5px;
 }
 
@@ -238,7 +238,7 @@ img {
 }
 
 .skill-bar .bar .html {
-  width: 92%;
+  width: 97%;
   animation: html 3s;
 }
 
@@ -248,12 +248,12 @@ img {
   }
 
   100% {
-    width: 92%;
+    width: 97%;
   }
 }
 
 .skill-bar .bar .css {
-  width: 88%;
+  width: 98%;
   animation: css 3s;
 }
 
@@ -263,12 +263,12 @@ img {
   }
 
   100% {
-    width: 88%;
+    width: 98%;
   }
 }
 
 .skill-bar .bar .javascript {
-  width: 80%;
+  width: 92%;
   animation: javascript 3s;
 }
 
@@ -278,12 +278,12 @@ img {
   }
 
   100% {
-    width: 80%;
+    width: 92%;
   }
 }
 
 .skill-bar .bar .bootstrap {
-  width: 85%;
+  width: 95%;
   animation: bootstrapt 3s;
 }
 
@@ -293,12 +293,12 @@ img {
   }
 
   100% {
-    width: 85%;
+    width: 95%;
   }
 }
 
 .skill-bar .bar .react {
-  width: 80%;
+  width: 92%;
   animation: react 3s;
 }
 
@@ -308,31 +308,16 @@ img {
   }
 
   100% {
-    width: 80%;
+    width: 92%;
   }
 }
 
-.skill-bar .bar .python {
-  width: 70%;
+.skill-bar .bar .ruby {
+  width: 90%;
   animation: python 3s;
 }
 
-@keyframes python {
-  0% {
-    width: 0;
-  }
-
-  100% {
-    width: 70%;
-  }
-}
-
-.skill-bar .bar .latex {
-  width: 90%;
-  animation: latex 3s;
-}
-
-@keyframes latex {
+@keyframes ruby {
   0% {
     width: 0;
   }
@@ -342,18 +327,33 @@ img {
   }
 }
 
-.skill-bar .bar .github {
-  width: 95%;
-  animation: github 3s;
+.skill-bar .bar .rails {
+  width: 92%;
+  animation: latex 3s;
 }
 
-@keyframes github {
+@keyframes rails {
   0% {
     width: 0;
   }
 
   100% {
-    width: 95%;
+    width: 92%;
+  }
+}
+
+.skill-bar .bar .postgressql {
+  width: 93%;
+  animation: github 3s;
+}
+
+@keyframes postgressql {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 93%;
   }
 }
 
@@ -404,12 +404,6 @@ img {
   padding-bottom: 50px;
 }
 
-/* .timeline {
-  position: relative;
-  padding-left: 37px;
-  padding-bottom: 50px;
-} */
-
 .timeline-item:last-child {
   padding-bottom: 0;
 }
@@ -448,12 +442,6 @@ img {
   font-size: 15px;
   margin-bottom: 20px;
 }
-
-/* .timeline {
-  line-height: 25px;
-  font-size: 16px;
-  text-align: justify;
-} */
 
 .timeline-text {
   line-height: 25px;

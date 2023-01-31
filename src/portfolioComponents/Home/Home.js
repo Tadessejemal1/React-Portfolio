@@ -58,7 +58,7 @@ function Home() {
               </div>
             </div>
             <div className="profile-options">
-              <a href="resume 1.pdf" download="Resume resume 1.pdf">
+              <a href="resume.pdf" download="Resume resume.pdf">
                 <button className="btn highlighted-btn">Get Resume </button>
               </a>
             </div>

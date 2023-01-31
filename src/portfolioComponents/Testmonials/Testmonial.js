@@ -45,7 +45,7 @@ function Testmonial() {
   return (
 
     <div id="testimonial" className="t-main">
-      <h1 className="heading">Testmonials</h1>
+      <h2 className="heading">Testmonials</h2>
       <div className="t-heading">
         <div className="blur t-blur1" style={{ background: 'var(--purple)' }} />
         <div className="blur t-blur2" style={{ background: 'skyblue' }} />

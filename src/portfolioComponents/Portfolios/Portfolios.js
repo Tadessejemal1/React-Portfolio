@@ -58,8 +58,8 @@ const data = [
 ];
 const Portfolios = () => (
   <div id="portfolios">
-    <h5>My Recent Work</h5>
-    <h2>Portfolio</h2>
+    <h2>My Recent Works</h2>
+    <h3>Portfolio</h3>
 
     <div className="portfolio-container">
       {

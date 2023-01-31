@@ -40,11 +40,11 @@ const Services = () => (
         <ul className="servies-list">
           <li>
             <BiCheck className="servies-list-icons" />
-            <p>Drupal web Development</p>
+            <p>Backend web Development</p>
           </li>
           <li>
             <BiCheck className="servies-list-icons" />
-            <p>HTML5 web Development</p>
+            <p>Frontend web Development</p>
           </li>
           <li>
             <BiCheck className="servies-list-icons" />

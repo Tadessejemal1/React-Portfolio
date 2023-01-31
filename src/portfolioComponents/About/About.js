@@ -10,11 +10,11 @@ function About() {
     <div id="about" className="About-main">
       <div className="about">
         <div className="container">
-          <h1 className="about-heading">About Me</h1>
-          <h2 className="about-heading2">
-            I am Tadesse Jemal
-            <span className="about-span">Web Developer</span>
-          </h2>
+          <h2 className="about-heading">About Me</h2>
+          <h5 className="about-heading2">
+            I&apos;M Tadesse Jemal
+            <span className="about-span">Full-Stack Web Developer</span>
+          </h5>
           <div className="about-content">
             <div className="about-me">
               <div className="about-image">
@@ -51,7 +51,7 @@ function About() {
             <div className="header skill-head">
               <h2>
                 My
-                <span>Skills</span>
+                <span> Skills</span>
               </h2>
               <p>Here is my skills to represent my Expertise</p>
             </div>
@@ -59,7 +59,7 @@ function About() {
               <div className="skill-bar">
                 <div className="info">
                   <p>HTML</p>
-                  <p>92%</p>
+                  <p>97%</p>
                 </div>
                 <div className="bar">
                   <span className="html" />
@@ -68,7 +68,7 @@ function About() {
               <div className="skill-bar">
                 <div className="info">
                   <p>CSS</p>
-                  <p>88%</p>
+                  <p>98%</p>
                 </div>
                 <div className="bar">
                   <span className="css" />
@@ -77,7 +77,7 @@ function About() {
               <div className="skill-bar">
                 <div className="info">
                   <p>JavaScript</p>
-                  <p>80%</p>
+                  <p>90%</p>
                 </div>
                 <div className="bar">
                   <span className="javascript" />
@@ -86,7 +86,7 @@ function About() {
               <div className="skill-bar">
                 <div className="info">
                   <p>Bootstrap</p>
-                  <p>85%</p>
+                  <p>95%</p>
                 </div>
                 <div className="bar">
                   <span className="bootstrap" />
@@ -95,7 +95,7 @@ function About() {
               <div className="skill-bar">
                 <div className="info">
                   <p>React</p>
-                  <p>80%</p>
+                  <p>92%</p>
                 </div>
                 <div className="bar">
                   <span className="react" />
@@ -104,28 +104,28 @@ function About() {
               <div className="skill-bar">
                 <div className="info">
                   <p>Ruby</p>
-                  <p>70%</p>
-                </div>
-                <div className="bar">
-                  <span className="python" />
-                </div>
-              </div>
-              <div className="skill-bar">
-                <div className="info">
-                  <p>RAILS</p>
                   <p>90%</p>
                 </div>
                 <div className="bar">
-                  <span className="latex" />
+                  <span className="ruby" />
                 </div>
               </div>
               <div className="skill-bar">
                 <div className="info">
-                  <p>POSTGRESQL</p>
-                  <p>95%</p>
+                  <p>Rails</p>
+                  <p>92%</p>
                 </div>
                 <div className="bar">
-                  <span className="github" />
+                  <span className="rails" />
+                </div>
+              </div>
+              <div className="skill-bar">
+                <div className="info">
+                  <p>Postgressql</p>
+                  <p>93%</p>
+                </div>
+                <div className="bar">
+                  <span className="postgressql" />
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ function About() {
                   <div className="timeline-item">
                     <div className="circle-dot" />
                     <h3 className="timeline-date">
-                      <i className="fa fa-calendar">2015</i>
+                      <i className="fa fa-calendar"> 2015</i>
                     </h3>
                     <h4 className="timeline-title">Degree</h4>
                     <p className="timeline-text">
@@ -152,7 +152,7 @@ function About() {
                   <div className="timeline-item">
                     <div className="circle-dot" />
                     <h3 className="timeline-date">
-                      <i className="fa fa-calendar">2016-2018</i>
+                      <i className="fa fa-calendar"> 2016 - 2018</i>
                     </h3>
                     <h4 className="timeline-title">Master</h4>
                     <p className="timeline-text">
@@ -162,7 +162,7 @@ function About() {
                   <div className="timeline-item">
                     <div className="circle-dot" />
                     <h3 className="timeline-date">
-                      <i className="fa fa-calendar">2016-2020</i>
+                      <i className="fa fa-calendar"> 2016 - 2020</i>
                     </h3>
                     <h4 className="timeline-title">Degree</h4>
                     <p className="timeline-text">
@@ -172,7 +172,7 @@ function About() {
                   <div className="timeline-item">
                     <div className="circle-dot" />
                     <h3 className="timeline-date">
-                      <i className="fa fa-calendar">2022-2023</i>
+                      <i className="fa fa-calendar"> 2022 - 2023</i>
                     </h3>
                     <h4 className="timeline-title">Full-Stack Developer</h4>
                     <p className="timeline-text">
@@ -191,7 +191,7 @@ function About() {
                   <div className="timeline-item">
                     <div className="circle-dot" />
                     <h3 className="timeline-date">
-                      <i className="fa fa-calendar">2015-2016</i>
+                      <i className="fa fa-calendar"> 2015 - 2016</i>
                     </h3>
                     <h4 className="timeline-title">Assistance Lecturer</h4>
                     <p className="timeline-text">
@@ -204,7 +204,7 @@ function About() {
                   <div className="timeline-item">
                     <div className="circle-dot" />
                     <h3 className="timeline-date">
-                      <i className="fa fa-calendar">2018-present</i>
+                      <i className="fa fa-calendar"> 2018 - present</i>
                     </h3>
                     <h4 className="timeline-title">Lecturer</h4>
                     <p className="timeline-text">
@@ -217,7 +217,7 @@ function About() {
                   <div className="timeline-item">
                     <div className="circle-dot" />
                     <h3 className="timeline-date">
-                      <i className="fa fa-calendar">2020-Present</i>
+                      <i className="fa fa-calendar"> 2020 - Present</i>
                     </h3>
                     <h4 className="timeline-title">Front End Developer</h4>
                     <p className="timeline-text">
