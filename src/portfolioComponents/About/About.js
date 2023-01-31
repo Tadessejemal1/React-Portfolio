@@ -3,11 +3,10 @@ import "./About.css";
 import Profile from '../../assets/Home/profile2.jpg';
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
-import { FiUsers } from "react-icons/fi";
 
 function About() {
     return (
-      <div className='About-main'>
+      <div id='about' className='About-main'>
         <div className="about">
           <div className="container">
             <h1 className="about-heading">About Me</h1>
@@ -26,23 +25,17 @@ function About() {
                     <small>2+ Years Working</small>
                   </article>
                   <article className='about-card'>
-                    <FiUsers className='about-icon'/>
-                    <h5>Clients</h5>
-                    <small>5+</small>
-                  </article>
-                  <article className='about-card'>
                     <VscFolderLibrary className='about-icon'/>
                     <h5>Project</h5>
-                    <small>10+</small>
+                    <small>50+</small>
                   </article>
                 </div>
                 <div className ='about-text'>
                   <p>
-                   I am a highly motivated individual and Innovative Front-End Developer with two years of experience building and maintaining responsive websites.
-                   Proficient in :HTML,CSS,jQuery,JavaScript, React; plus, modern libraries and frameworks.I am a multidisciplinary designer.
-                    Building stable and maintainable codebase using React.Created user-centric e-commerce sites for small business owners using various web
-                   technologies.Collaborating closely with the team to support projects during all phases of delivery.
-
+                  Hello I’m a software developer! I can help you build a product ,
+                  feature or website Look through some of my work and experience! If
+                  you like what you see and have a project you need coded, don’t
+                  hestiate to contact me.
                   </p>
                   <a href='#contact' className='btn btn-primary'>Let's Talk</a>
                 </div>
@@ -103,7 +96,7 @@ function About() {
               </div>
               <div className='skill-bar'>
                 <div className='info'>
-                  <p>Python</p>
+                  <p>Ruby</p>
                   <p>70%</p>
                 </div>
                 <div className='bar'>
@@ -112,7 +105,7 @@ function About() {
               </div>
               <div className='skill-bar'>
                 <div className='info'>
-                  <p>LATEX</p>
+                  <p>RAILS</p>
                   <p>90%</p>
                 </div>
                 <div className='bar'>
@@ -121,7 +114,7 @@ function About() {
               </div>
               <div className='skill-bar'>
                 <div className='info'>
-                  <p>GITHUB</p>
+                  <p>POSTGRESQL</p>
                   <p>95%</p>
                 </div>
                 <div className='bar'>
@@ -132,93 +125,101 @@ function About() {
           </section>
             <div className='sour'>
               </div>
+              <h2 className='qualification'>Qualification</h2>
             </div>
+        <div className='row'>
+          <div className='education'>
+            <h3 className='title'>Education</h3>
             <div className='row'>
-              <div className='education'>
-                <h3 className='title'>Education</h3>
-                <div className='row'>
-                  <div className='timeline-box'>
-                    <div className='timeline-shadow'>
-                      <div className='timeline-item'>
-                        <div className='circle-dot'></div>
-                        <h3 className='timeline-date'>
-                          <i className='fa fa-calendar'>2015</i>
-                        </h3>  
-                        <h4 className='timeline-title'>Degree</h4>
-                        <p className='timeline-text'> I am gratuated from mekelle university Mechanical Engineering 
-                           Department <br></br>
-                        </p>
-                      </div>
-                      <div className='timeline-item'>
-                        <div className='circle-dot'></div>
-                        <h3 className='timeline-date'>
-                          <i className='fa fa-calendar'>2016-2018</i>
-                        </h3>  
-                        <h4 className='timeline-title'>Master</h4>
-                        <p className='timeline-text'>
-                          I am gratuated MSC in Thermal Engineering From Bahirdar University
-                        </p>
-                      </div>
-                      <div className='timeline-item'>
-                        <div className='circle-dot'></div>
-                        <h3 className='timeline-date'>
-                          <i className='fa fa-calendar'>2016-2020</i>
-                        </h3>  
-                        <h4 className='timeline-title'>Degree</h4>
-                        <p className='timeline-text'>
-                          I am gratuated from Bahirdar University in Computer Science 
-                        </p>
-                      </div>
-                    </div>
+              <div className='timeline-box'>
+                <div className='timeline-shadow'>
+                  <div className='timeline-item'>
+                    <div className='circle-dot'></div>
+                    <h3 className='timeline-date'>
+                      <i className='fa fa-calendar'>2015</i>
+                    </h3>  
+                    <h4 className='timeline-title'>Degree</h4>
+                    <p className='timeline-text'> 
+                      I am gratuated from mekelle university in Mechanical Engineering
+                    </p>
+                  </div>
+                  <div className='timeline-item'>
+                    <div className='circle-dot'></div>
+                    <h3 className='timeline-date'>
+                      <i className='fa fa-calendar'>2016-2018</i>
+                    </h3>  
+                    <h4 className='timeline-title'>Master</h4>
+                    <p className='timeline-text'>
+                      I am gratuated MSC in Thermal Engineering From Bahirdar University
+                    </p>
+                  </div>
+                  <div className='timeline-item'>
+                    <div className='circle-dot'></div>
+                    <h3 className='timeline-date'>
+                      <i className='fa fa-calendar'>2016-2020</i>
+                    </h3>  
+                    <h4 className='timeline-title'>Degree</h4>
+                    <p className='timeline-text'>
+                      I am gratuated from Bahirdar University in Computer Science 
+                    </p>
+                  </div>
+                  <div className='timeline-item'>
+                    <div className='circle-dot'></div>
+                    <h3 className='timeline-date'>
+                      <i className='fa fa-calendar'>2022-2023</i>
+                    </h3>  
+                    <h4 className='timeline-title'>Full-Stack Developer</h4>
+                    <p className='timeline-text'>
+                      I am gratuated from Microverse
+                    </p>
                   </div>
                 </div>
-              </div>
-              <div className='experience'>
-                <h3 className='title'>Experience</h3>
-                <div className='row'>
-                <div className='timeline-box'>
-                  <div className='timeline-shadow'>
-                    <div className='timeline-item'>
-                      <div className='circle-dot'></div>
-                      <h3 className='timeline-date'>
-                        <i className='fa fa-calendar'>2015-2016</i>
-                      </h3>  
-                      <h4 className='timeline-title'>Assistance Lecturer</h4>
-                      <p className='timeline-text'> I have One years Work Experience as Assistance Lecturer Position from DebreTabor University in Mechanical Engineering 
-                         Department. <br></br>
-                      </p>
-                    </div>
-                    <div className='timeline-item'>
-                      <div className='circle-dot'></div>
-                      <h3 className='timeline-date'>
-                        <i className='fa fa-calendar'>2018-present</i>
-                      </h3>  
-                      <h4 className='timeline-title'>Lecturer</h4>
-                      <p className='timeline-text'>
-                       I have 4 year's Work Experience as Lecturer Position from DebreTabor University in Mechanical Engineering 
-                       Department. <br></br>
-                      </p>
-                    </div>
-                    <div className='timeline-item'>
-                      <div className='circle-dot'></div>
-                      <h3 className='timeline-date'>
-                        <i className='fa fa-calendar'>2020-Present</i>
-                      </h3>  
-                      <h4 className='timeline-title'>Front End Developer</h4>
-                      <p className='timeline-text'>
-                       I have two years of work experience in the design of Responsive websites using Front End Technology. <br></br>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
               </div>
             </div>
-            
+          </div>
+          <div className='experience'>
+            <h3 className='title'>Experience</h3>
+            <div className='row'>
+            <div className='timeline-box'>
+              <div className='timeline-shadow'>
+                <div className='timeline-item'>
+                  <div className='circle-dot'></div>
+                  <h3 className='timeline-date'>
+                    <i className='fa fa-calendar'>2015-2016</i>
+                  </h3>  
+                  <h4 className='timeline-title'>Assistance Lecturer</h4>
+                  <p className='timeline-text'> I have One years Work Experience as Assistance Lecturer Position from DebreTabor University in Mechanical Engineering 
+                    Department. <br></br>
+                  </p>
+                </div>
+                <div className='timeline-item'>
+                  <div className='circle-dot'></div>
+                  <h3 className='timeline-date'>
+                    <i className='fa fa-calendar'>2018-present</i>
+                  </h3>  
+                  <h4 className='timeline-title'>Lecturer</h4>
+                  <p className='timeline-text'>
+                  I have 4 year's Work Experience as Lecturer Position from DebreTabor University in Mechanical Engineering 
+                  Department. <br></br>
+                  </p>
+                </div>
+                <div className='timeline-item'>
+                  <div className='circle-dot'></div>
+                  <h3 className='timeline-date'>
+                    <i className='fa fa-calendar'>2020-Present</i>
+                  </h3>  
+                  <h4 className='timeline-title'>Front End Developer</h4>
+                  <p className='timeline-text'>
+                  I have two years of work experience in the design of Responsive websites using Front End Technology. <br></br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
         </div>
       </div>  
-        
-    
   )
 }
 
