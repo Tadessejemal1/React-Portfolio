@@ -2,27 +2,21 @@ import React from 'react';
 import Typical from 'react-typical';
 import './Home.css';
 
-
 function Home() {
   return (
     <div>
-      <div className='profile-container'>
+      <div id='home' className='profile-container'>
       <div className='profile-parent'>
         <div className='profile-detail'>
             <div className='colz'>
-              <div className='colz-icon'>
-                <a href='#'>
-                    <li className='fa fa-facebook-square'></li>
-                </a>
-                <a href='#'>
-                    <li className='fa fa-google-plus-square'></li>
-                </a>
-                <a href='#'>
-                    <li className='fa fa-instagram'></li>
-                </a>
-                <a href='#'>
-                    <li className='fa fa-twitter'></li>
-                </a>
+              <div className='social-media'>
+                <ul class="element">
+                  <li><a href="" class="fa fa-facebook"></a></li>
+                  <li><a href="https://github.com/Tadessejemal1" class="fa fa-github"></a></li>
+                  <li><a href="https://linkedin.com/in/tadesse-jemal" class="fa fa-linkedin"></a></li>
+                  <li><a href="https://angel.co/u/tadesse-jemal" class="fa fa-angellist"></a></li>
+                  <li><a href="https://twitter.com/tadesse" class="fa fa-twitter"></a></li>  
+                </ul>
               </div>  
             </div>
         <div className='profile-detail-name'>
@@ -39,26 +33,26 @@ function Home() {
                   <Typical
                   loop ={Infinity}
                   steps={[
-                      'Front-End Developer',
+                      'Full-Stack Developer',
                       1000,
                       'React-Developer',
                       1000,
                       'React-Native',
                       1000,
-                      'Pyton Developer',
+                      'Ruby-Developer',
+                      1000,
+                      'Ruby on Rails-Developer',
                       1000,
                   ]}
                   />
                 </h1>
-                <span className='profile-role-tagline'>
-                  knack of building application with front end
-                </span>
+                <div className='profile-role-tagline'>
+                  <p class="card-text">
+                    I can help you build a product , feature or website Look through some of my work and experience!
+                  </p>
+                </div>
               </div>  
               <div className='profile-options'>
-                  <button className='btn primary-btn'>
-                    {""}
-                    Hire Me{''}
-                  </button>
                   <a href = 'resume 1.pdf' download = 'Resume resume 1.pdf'>                    
                     <button className = 'btn highlighted-btn'>Get Resume </button>
                   </a>
