@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
 import Navbar from './portfolioComponents/Navbar/Navbar';
 import Home from './portfolioComponents/Home/Home';
@@ -10,16 +10,16 @@ import Services from './portfolioComponents/Services/Services';
 
 function App() {
   return (
-           <div>
-              <Navbar />
-              <Home />
-              <About />
-              <Services />
-              <Portfolios />
-              <Testmonial />
-              <Contacts />
-            </div>
-  )
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Services />
+      <Portfolios />
+      <Testmonial />
+      <Contacts />
+    </div>
+  );
 }
 
 export default App;
