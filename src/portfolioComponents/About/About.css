@@ -474,7 +474,6 @@ img {
   transition: all 0.3s ease;
 }
 
-
 /* RESPONSIVE */
 @media screen and (max-width: 1024px) {
   .about-content {
