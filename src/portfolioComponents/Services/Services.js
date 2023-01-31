@@ -33,7 +33,6 @@ const Services = () => {
                      <p>Build interfaces</p>
                     </li> 
                 </ul>
-
             </article>
             <article className='servies'>
                 <div className='servies-head'>
