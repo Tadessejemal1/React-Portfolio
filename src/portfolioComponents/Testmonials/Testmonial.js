@@ -1,10 +1,10 @@
 import React from 'react';
 import './Testmonial.css';
 import { Swiper, SwiperSlide } from "swiper/react";
-import img1 from '../../assets/Home/img/Tibebu Photo.PNG';
-import img2 from '../../assets/Home/img/Wossen Photo.PNG';
-import img3 from '../../assets/Home/img/Muha Photo.PNG';
-import img4 from '../../assets/Home/img/Mula Photo.PNG';
+import img1 from '../../assets/Home/img/angel.JPG';
+import img2 from '../../assets/Home/img/marco.JPG';
+import img3 from '../../assets/Home/img/kuma.JPG';
+import img4 from '../../assets/Home/img/matias.JPG';
 import "swiper/css";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
@@ -14,38 +14,38 @@ const clients = [
     
   {
       Img:img1,
-      review:'Tadesse is a web developer he will do everything with a short period of time i will recommended him for another work in the future thanks for everything ',
-      Name: 'Tibebu Eneyew',
+      review:"Tadesse is one of the most excellent Software developers I've ever met, he proved his commitment, determination, and willingness to contribute to teamwork",
+      Name: 'Angel Uray',
       Work:'web developer'
 
   },
   {
       Img:img2,
-      review:'Tadesse did a great job hunting for the requested information. Very reliable, high quality, and fast! ',
-      Name: 'Wossen Abebe',
-      Work:'web developer'
+      review:'Choosing Tadesse will be an excellent choice as every team needs people who complete their work on time and in a professional manner',
+      Name: 'Marco Vincio',
+      Work:'Full-Stack developer'
 
   },
   {
       Img:img3,
-      review:'Tadesse Every single Project Done With the time Frame. I am happy work with Tadesse,and will definitely engage him.',
-      Name: 'Muhabawo Amare',
-      Work:'Communication Engineer'
+      review:'Tadesse is attentive to details and is always thinking about how to improve his projects or activities. In moments of teamwork, he is a very good colleague.',
+      Name: 'Kumilachew Getie',
+      Work:'IT Engineer'
 
   },
   {
       Img:img4,
       review:'Tadesse showed familiarity with the codebase ,and completed it under the time estimated. I am continuing to work with him on other projects',
-      Name: 'Mulugeta Worku',
+      Name: 'Matias Aguirre',
       Work:'Software Engineer'
   }
 ]
 function Testmonial() {
   return (
   
-        <div className='t-main' id="testimonial">
+        <div id='testimonial' className='t-main'>
+          <h1 className='heading'>Testmonials</h1>
           <div className='t-heading'>
-            <h1>Testmonials</h1>
             <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
             <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
           </div>
