@@ -1,133 +1,214 @@
 .profile-container {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    height: 10%;
-    min-height: fit-content;
-    background-color:#212529;
-    background-image: url('../../assets/Home/bg.jpg')
-  }
-  .profile-parent {
-    display: flex;
-    align-items: center;
-    color: var(--color-white);
-  }
-  .profile-details-name {
-    font-size: 24px;
-    font-family: 'poppins semiBold';
-    margin: 14px 0 24px 0;
-  }
-  .profile-details-role h1 {
-    font-size: 40px;
-    font-family: cursive;
-  }
-  .primary-text {
-    color: var(--color-white);
-  }
-  .highlighted-text {
-    color: #ff5823;
-  }
-  .profile-role-tagline {
-    font-size: 19px;
-    margin: 5px 0 0 0;
-    font-family: 'poppins light';
-  }
-  .profile-options .highlighted-btn {
-    margin: 0 0 0 28px;
-  }
-  .profile-options .highlighted-btn:hover {
-    margin: 0 0 0 28px;
-    background-color: cornsilk;
-    color: #111;
-  }
-  .profile-picture {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 1px 0px 0px var(--white);
-    border-radius: 50%;
-    height: 380px;
-    width: 380px;
-    margin: 0 0px 0 100px;
-  }
-  .profile-picture-background {
-    height: 92%;
-    width: 92%;
-    background-size: cover;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('../../assets/Home/profile2.jpg');
-  }
-  .profile-picture-background:hover {
-    transform: scale(1.07);
-    transition: 1s ease-out;
-  }
-  .colz .colz-icon i {
-    color: white;
-    padding: 8px;
-    padding-left: 0px;
-  }
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  min-height: fit-content;
+  background-color:#212529;
+  background-image: url('../../assets/Home/bg.jpg');
+  padding-top: 170px;
+}
+
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: var(--color-white);
+}
+
+.profile-details-name {
+  font-size: 24px;
+  font-family: 'poppins semiBold';
+  margin: 20px 0 24px 30px;
+}
+
+.profile-details-role h1 {
+  font-size: 40px;
+  font-family: cursive;
+  padding-top: 10px;
+}
+
+.primary-text {
+  color: var(--color-white);
+}
+
+.profile-options {
+  margin-top: 70px;
+}
+
+.highlighted-text {
+  color: #ff5823;
+}
+
+.profile-role-tagline {
+  font-size: 19px;
+  margin: 5px 0 25px 0;
+  font-family: 'poppins light';
+}
+
+.profile-options .highlighted-btn {
+  margin: 0 0 0 28px;
+}
+
+.profile-options .highlighted-btn:hover {
+  margin: 0 0 0 28px;
+  background-color: cornsilk;
+  color: #111;
+}
+
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0px 0px var(--white);
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 0 0px 0 120px;
+}
+
+.profile-picture-background {
+  height: 92%;
+  width: 92%;
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../assets/Home/profile2.jpg');
+}
+
+.profile-picture-background:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1.5rem;
+  position: absolute;
+  padding-top: 1.2rem;
+  margin-left: -122px;
+}
+
+.element a {
+  color: #cfcfcf;
+  text-decoration: none;
+}
+
+.social-media .element li {
+  transition: all 0.2s ease;
+}
+
+.social-media .element li:hover {
+  transform: scale(1.7);
+}
+
+.card-text {
+  width: 506px;
+  height: 123px;
+  font-size: 20px;
+  line-height: 32px;
+}
  
   
-  .colz .colz-icon i:hover {
-    transform: scale(1.5);
+@media screen and (max-width:1284px) {
+  .profile-picture {
+    margin: 0 0px 0 80 px;
   }
-  
-  @media screen and (max-width:1110px) {
-    .profile-picture {
-      margin: 0 0px 0 80 px;
-    }
-    .profile-details-name{
-      font-size: 20px;
-    }
-    .profile-details-role .primary-text {
-      font-size: 12px;
-    }
-    .profile-options .btn {
-      width: 120px;
-      padding: 11px 0;
-      z-index: 700;
-    }
+
+  .profile-details-name{
+    font-size: 20px;
   }
-  @media screen and (max-width:810px) {
-    .profile-picture {
-      height: 320px;
-      width: 320px;
-      margin: 0 0 0 4px;
-    }
+
+  .profile-details-role .primary-text {
+    font-size: 12px;
   }
-  @media screen and (max-width:810px) {
-    .profile-picture{
-      margin: 0 !important;
-    }
-    .profile-parent{
-      flex-direction: column-reverse;
-      margin: 40px 0 0 0;
-    }
-    .profile-options{
-      display: flex;
-      justify-content: space-between;
-    }
-    .profile-detail {
-      margin: 25px 0 0;
-    }
-    .profile-options .highlighted-btn {
-      margin: 0 !important;
-    }
-    .profile-options,
-    .profile-details-role {
-      text-align: center;
-    }
+
+  .profile-options .btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
   }
-  @media screen and (max-width:810px) {
-    .profile-picture {
-      height: 275px;
-      width: 275px;
-      margin-top: -90px;
-    }
-    .profile-details{
-      width: 90%;
-    }
+
+  .element {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    position: absolute;
+    margin-left: 0px;
+    padding-top: 258px;
+    justify-content: center;
+    padding-left: 120px;
   }
+
+  .card-text {
+    width: 316px;
+    height: 123px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width:810px) {
+  .profile-picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+  }
+
+  .profile-parent{
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
+
+  .profile-options{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-left: 120px;
+  }
+
+  .profile-detail {
+    margin: 25px 0 0;
+    width: 90%;
+  }
+
+  .profile-options .highlighted-btn {
+    margin: 0 !important;
+  }
+
+  .profile-options,
+  .profile-details-role {
+    text-align: center;
+  }
+
+  .card-text {
+    position: relative;
+    margin-top: 32px;
+    width: 327px;
+    height: 123px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .element {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    position: absolute;
+    margin-left: 0px;
+    padding-top: 258px;
+    justify-content: center;
+    padding-left: 120px;
+  }
+}

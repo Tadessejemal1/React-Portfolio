@@ -1,5 +1,7 @@
-.About {
-    background-color: aliceblue;
+.about {
+  background: #1b1b27;
+  padding-top: 5rem;
+  color: #fff;
 }
 
 img {
@@ -17,8 +19,7 @@ img {
     font-size: 24px;
     font-family: Montserrat,sans-serif;
     font-size: 60px;
-    color: black;
-    
+    color: #fff;
 }
 .about-span {
     color: brown;
@@ -30,6 +31,7 @@ img {
     font-size: 24px; 
     padding-right: 5px;
     text-align: center;
+    color: #fff;
 }
 
 .about-content {
@@ -63,15 +65,18 @@ img {
 .about-cards {
     display: flex;
     grid-template-columns: repeat(3,1fr);
-    gap:1.5rem;
+    gap:2rem;
 }
 .about-card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
+    color: #fff;
     border-radius: 1rem;
     padding: 2rem;
+    gap:1.2rem;
     text-align: center;
     transition: var(--transition);
+    margin-top: 12px;
 }
 .about-card:hover {
     background: transparent;
@@ -91,12 +96,14 @@ img {
 .about-text p {
     margin:1.2rem 0 2.6rem;   
     width: 155%;
+    color: #fff;
 }
 .right{
     max-width: 60%;
     display: flex;
     flex-direction: column;
-  }
+}
+
 .left {
     flex: 1;
   }
@@ -107,16 +114,16 @@ img {
     background-color: inherit;
     margin-left: 5px;
     padding: 0 15% 0 15%;
+    color: #fff;
   }
   
   .row {
-      padding: 0 10% 0 10%;
-      
+    padding: 0 10% 0 10%; 
   }
   .skills {
-      flex: 0 0 40%;
-      max-width: 40%;
-     
+    flex: 0 0 40%;
+    max-width: 40%;
+    color: #fff; 
   }
 .info-item {
     flex: 0 0 50%;
@@ -133,17 +140,16 @@ img {
       font-weight: 400;
       color: black;
   }
-  .header_skill-head {
-      margin-top: 0.5rem;
-  }
   #skill-section {
     margin-top: 0.5rem;
+    color: #fff;
   }
+
   .skill-item {
       flex: 0 0 100%;
       max-width: 100%;
       margin-bottom: 30px;
-      background-color: aliceblue;
+      color: #fff;
       padding: 1% 2%;
       margin-top: 0.15rem;
   }
@@ -151,9 +157,8 @@ img {
       line-height: 40px;
       font-weight: 600;
       font-size: 16px;
-      color: var(--text-black-900);
+      color: #fff;
       text-transform: capitalize;
-
   }
   .progress {
       background-color: black;
@@ -177,7 +182,7 @@ img {
     text-align: center;
 }
 .header h2 {
-    margin-bottom: -5px;
+    margin-bottom: 10px;
 }
 .header h2 span {
     color: #e74d06;
@@ -188,7 +193,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 50px;
     grid-row-gap: 20px;
-    
+    color: #fff;
 }
 .skill-main .skill-bar .info {
     display: flex;
@@ -309,6 +314,11 @@ img {
     align-items: flex-start;
     justify-content: center;
 }
+
+.qualification {
+    text-align: center;
+    padding-bottom: 20px;
+}
 .experience {
     flex: 0 0 50%;
     max-width: 70%;
@@ -324,10 +334,8 @@ img {
     font-size: 24px;
     margin-bottom: 30px;
     font-weight: 700;
-    color: black;
 }
 .timeline {
-    background-color: black;
     padding: 30px 15px;
     border-radius: 10px;
     width: 100%;
@@ -370,11 +378,15 @@ img {
 .timeline-date,
 .fa {
    margin-right: 5px;
+   font-weight: 700;
+   font-size: 15px;
+   gap: 1.2rem;
+   color: aqua;
    
 }
 
 .timeline-title {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 15px;
     margin-bottom: 20px;
 }
@@ -382,11 +394,10 @@ img {
     line-height: 25px;
     font-size: 16px;
     text-align: justify;
-    color: var(--text-black-700);
 }
 .timeline-text {
     line-height: 25px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify;
     color: var(--text-black-700);
 }
@@ -405,24 +416,28 @@ img {
 
 /* RESPONSIVE */
 @media screen and (max-width:1024px) {
-    
     .about-content {
         grid-template-columns: 1fr;
-        gap: 0;
-        
+        gap: 0.5rem;  
     }
     .about-me {
         width: 50%;
         margin: 2rem auto 4rem;
     }
     .about-text p {
-        margin: 1rem 0 1.5rem;
+        margin: 2rem 0 1.5rem;
+        text-align: center;
     }
     .about-cards {
-        place-items: center;
+        padding-left: 150px;
     }
-}    
-@media screen and (max-width:600px) {    
+    
+    .right {
+        align-items: center;
+    }
+}   
+
+@media screen and (max-width:650px) {    
     .about
     .col__2 {
       width: 100%;
@@ -454,15 +469,15 @@ img {
     }
     .about-cards {
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        gap: 1.5rem;
+        padding-left: 90px;
     }
     .about-content {
         text-align: center;
     }
     .about-text p {
         margin: 1.5rem 0;
-        padding: 0;
-        width: 155%;
+        text-align: center;
     }
 }
     

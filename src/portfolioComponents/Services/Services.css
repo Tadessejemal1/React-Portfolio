@@ -2,16 +2,15 @@
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
-    padding: 0 15% 0 15%;
+    padding: 3% 15% 0 15%;
     color: var(--color-white); 
-    margin-top: 1.5rem;  
 }
 .app_services {
-    background-image: url('../../assets/Home/bg.jpg');
+    background: #1b1b27;
     text-align: center;
     color: var(--color-white); 
-    margin-top: 0.15rem;
-    margin-bottom: 0.15rem;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 .app_services h2 {
     font-size: 40px;
@@ -57,7 +56,7 @@
 .servies-list p{
     font-size: 0.9rem;
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1134px) {
     .servies-container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
@@ -67,7 +66,7 @@
         height: auto;
     }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:740px) {
     .servies-container {
         grid-template-columns: 1fr;
         gap: 1.2rem;
