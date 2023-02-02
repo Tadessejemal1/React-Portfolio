@@ -16,7 +16,7 @@ This portfolio provides an insight into my work and experience, including Projec
 
 ## 🚀 Live Demos and Importand links <a name="live-demo"></a>
 
-- [ONLINE DEMO](https://feature-update-components--chic-queijadas-ff68a1.netlify.app/)
+[ONLINE DEMO](https://feature-update-components--chic-queijadas-ff68a1.netlify.app/)
 
 ## Getting Started
 
