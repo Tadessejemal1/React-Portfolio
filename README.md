@@ -77,8 +77,6 @@ You may also see any lint errors in the console.
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
-<div id="badges"align="center">
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
