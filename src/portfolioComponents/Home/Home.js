@@ -5,6 +5,7 @@
 import React from 'react';
 import Typical from 'react-typical';
 import './Home.css';
+import Resume from '../../assets/Home/Resume.pdf';
 
 function Home() {
   return (
@@ -57,7 +58,8 @@ function Home() {
               </div>
             </div>
             <div className="profile-options">
-              <a href="resume.pdf" download="Resume resume.pdf">
+              <a href={Resume} download>
+                {' '}
                 <button className="btn highlighted-btn">Get Resume </button>
               </a>
             </div>
