@@ -16,7 +16,7 @@ This portfolio provides an insight into my work and experience, including Projec
 
 ## 🚀 Live Demos and Importand links <a name="live-demo"></a>
 
-- [Hotelator Frontend deployment link](https://inspiring-kashata-9d9dfc.netlify.app/)
+- [ONLINE DEMO](https://feature-update-components--chic-queijadas-ff68a1.netlify.app/)
 
 ## Getting Started
 
