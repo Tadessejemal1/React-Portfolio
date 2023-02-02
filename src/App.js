@@ -7,6 +7,7 @@ import About from './portfolioComponents/About/About';
 import Portfolios from './portfolioComponents/Portfolios/Portfolios';
 import Contacts from './portfolioComponents/Contact/Contacts';
 import Services from './portfolioComponents/Services/Services';
+import Scrollup from './portfolioComponents/Scrollup/Scrollup';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Portfolios />
       <Testmonial />
       <Contacts />
+      <Scrollup />
     </div>
   );
 }

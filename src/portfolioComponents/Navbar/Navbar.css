@@ -79,6 +79,7 @@
   font-size: 2rem;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all 0.2s ease;
 }
 
 .app__navbar-smallscreen-links a {
@@ -87,20 +88,16 @@
   text-decoration: none;
 }
 
-.app__navbar-link li:hover {
-  transform: scale(1.37);
-}
-
 .app__navbar-link li {
   transition: all 0.2s ease;
 }
 
-.app__navbar-smallscreen-links li:hover {
+.app__navbar-link li:hover {
   transform: scale(1.37);
 }
 
-.app__navbar-smallscreen-links li {
-  transition: all 0.2s ease;
+.app__navbar-smallscreen-links li:hover {
+  transform: scale(1.37);
 }
 
 @media screen and (max-width: 1114px) {

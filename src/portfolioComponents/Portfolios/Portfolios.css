@@ -35,10 +35,10 @@
 }
 
 .portfolio-item-image {
-  border-radius: 1.5rem;
   overflow: hidden;
-  width: 250px;
-  height: 250px;
+  width: 260px;
+  height: 260px;
+  padding-left: 1.1rem;
 }
 
 .portfolio-item-cta {
@@ -50,6 +50,10 @@
 
 .btn {
   color: var(--color-white);
+}
+
+.btn:hover {
+  color: var(--color-bg-variant);
 }
 
 .portfolio-item p {

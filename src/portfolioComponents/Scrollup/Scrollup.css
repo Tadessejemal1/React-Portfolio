@@ -1,0 +1,15 @@
+.scrollUp {
+  position: fixed;
+  right: 0.4rem;
+  bottom: 3rem;
+  opacity: 0.8;
+  padding: 0.3rem 0.7rem;
+  z-index: 100;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .scrollUp {
+    right: 0.25rem;
+  }
+}
