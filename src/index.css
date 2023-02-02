@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,400&display=swap');
+
 @font-face {
   font-family: "Poppins Medium";
   font-style: normal;
@@ -53,24 +55,24 @@
 
 body {
   margin: 0;
-  overflow-y: overlay;
-  font-family: "Poppins Regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Courier New",
+    Poppins Regular,
     monospace;
 }
 
 ::-webkit-scrollbar {
   width: 6px !important;
   height: 6px !important;
-}
-
-body ::-webkit-scrollbar-thumb {
-  background-color: hsla(0, 0%, 100%, 0.16);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -81,13 +83,16 @@ body ::-webkit-scrollbar-thumb {
   background: hsla(0, 0%, 100%, 0.1);
 }
 
+body ::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 100%, 0.16);
+}
+
 .btn {
   border-radius: 50px;
   padding: 14px 0;
   width: 160px;
   cursor: pointer;
   transition: 0.2s;
-  font-family: "Poppins SemiBold";
 }
 
 .btn:active {
@@ -100,6 +105,7 @@ body ::-webkit-scrollbar-thumb {
   font-size: 12px;
   background-color: #1f2235;
 }
+
 /* @media only screen and (max-width: 414px) {
   .primary-btn {
     font-size: 13px;
@@ -114,10 +120,10 @@ body ::-webkit-scrollbar-thumb {
 
 .highlighted-btn {
   color: var(--white);
-
   font-size: 12px;
   background-color: #ff5823;
 }
+
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
     z-index: -900;

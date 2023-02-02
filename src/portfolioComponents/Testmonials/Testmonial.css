@@ -1,103 +1,108 @@
-.t-main{
-  padding:  0 3rem 0 3rem;;
-  height: 50vh;
+.t-main {
+  padding: 0 3rem 0 3rem;
+  height: 60vh;
   display: flex;
-  text-align: center;
-  align-items: center;
   justify-content: center;
-  margin-top: 2rem;
-  margin-bottom: 0.2rem;
   flex-direction: column;
   gap: 2rem;
   position: relative;
   background-image: url('../../assets/Home/bg.jpg');
-  text-align: center;
-  margin-top: 0.15rem;
- 
+  padding-top: 50px;
 }
+
 #testimonial {
   color: var(--color-white);
+  text-align: center;
 }
-.t-heading{
+
+.heading {
+  text-align: center;
+}
+
+.t-heading {
   align-self: start;
   text-align: center;
   justify-content: center;
 }
-.t-heading>*{
+
+.t-heading > * {
   font-size: 2rem;
   font-weight: bold;
 }
-.t-heading h1{
+
+.t-heading h1 {
   margin-bottom: 0;
   margin-top: 0;
   text-align: center;
   padding-top: 0.5rem;
 }
 
-.t-blur1{
+.t-blur1 {
   left: 38rem;
   top: 16rem;
 }
-.t-blur2{
+
+.t-blur2 {
   top: 9rem;
   left: 0;
 }
 
-.testimonial{
+.testimonial {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   padding: 2rem;
   width: 30rem;
-  height: 12rem;
+  height: 15rem;
   color: var(--color-white);
+
   /* styles same as work.css */
   background: rgba(255, 255, 255, 0.26);
   border: 7px solid var(--blueCard);
   box-shadow: var(--boxShadow);
   border-radius: 20px;
-  
 }
-.testimonial>img{
+
+.testimonial > img {
   width: 5rem;
   aspect-ratio: 1/1;
   border-radius: 100%;
-  
 }
 
-.testimonial>span{
+.testimonial > span {
   color: var(--color-white);
 }
-
 
 /* slider */
 .t-main .swiper {
   width: 100%;
   height: 100%;
-  margin-top: 1px;
+  margin-top: -80px;
 }
 
-.t-main .swiper-slide{
+.t-main .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.t-main .swiper-pagination-bullet-active{
+.t-main .swiper-pagination-bullet-active {
   background: var(--color-primary);
 }
+
 .work {
   margin-top: 1px;
   margin-bottom: 1px;
 }
-@media screen and (max-width: 600px){
-  .t-main{
-      padding: 0;  
+
+@media screen and (max-width: 600px) {
+  .t-main {
+    padding: 0;
   }
-  .testimonial>img{
-      width: 70px;
-      height: 70px;
-      
+
+  .testimonial > img {
+    width: 70px;
+    height: 70px;
   }
 }
