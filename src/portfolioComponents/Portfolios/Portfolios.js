@@ -11,10 +11,9 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Conference',
+    title: 'Conference page',
     github: 'https://github.com/Tadessejemal1/FIRST-CAPSTONE-PROJECT.git',
     demo: 'https://tadessejemal1.github.io/FIRST-CAPSTONE-PROJECT/',
-    technologies: ['HTML', 'CSS', 'Javascript'],
   },
   {
     id: 2,
@@ -59,19 +58,16 @@ const data = [
 const Portfolios = () => (
   <div id="portfolios">
     <h2>My Recent Works</h2>
-    <h3>Portfolio</h3>
+    <h5>Portfolio</h5>
 
     <div className="portfolio-container">
       {
               data.map(({
-                id, image, title, technology, github, demo,
+                id, image, title, github, demo,
               }) => (
                 <article key={id} className="portfolio-item">
                   <div className="portfolio-item-image">
                     <img src={image} alt={title} />
-                  </div>
-                  <div className="badge">
-                    <h3>{technology}</h3>
                   </div>
                   <p>{title}</p>
                   <div className="portfolio-item-cta">
