@@ -86,7 +86,7 @@
   gap: 1.5rem;
   position: absolute;
   padding-top: 1.2rem;
-  margin-left: -122px;
+  margin-left: -92px;
 }
 
 .element a {
@@ -134,7 +134,7 @@
     gap: 0.5rem;
     position: absolute;
     margin-left: 0;
-    padding-top: 258px;
+    padding-top: 248px;
     justify-content: center;
     padding-left: 120px;
   }
@@ -203,7 +203,7 @@
     gap: 0.5rem;
     position: absolute;
     margin-left: 0;
-    padding-top: 258px;
+    padding-top: 248px;
     justify-content: center;
     padding-left: 120px;
   }

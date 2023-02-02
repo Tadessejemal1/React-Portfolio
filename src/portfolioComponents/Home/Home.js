@@ -15,7 +15,7 @@ function Home() {
             <div className="colz">
               <div className="social-media">
                 <ul className="element">
-                  <li><a href="https://github.com/Tadessejemal1" className="fa fa-facebook" /></li>
+                  <li><a href="https://www.facebook.com/tadesse.jemal.1" className="fa fa-facebook" /></li>
                   <li><a href="https://github.com/Tadessejemal1" className="fa fa-github" /></li>
                   <li><a href="https://linkedin.com/in/tadesse-jemal" className="fa fa-linkedin" /></li>
                   <li><a href="https://angel.co/u/tadesse-jemal" className="fa fa-angellist" /></li>
@@ -33,8 +33,7 @@ function Home() {
             </div>
             <div className="profile-detail-role">
               <span className="primary-text" />
-              <h1>
-
+              <h2>
                 <Typical
                   loop={Infinity}
                   steps={[
@@ -50,10 +49,10 @@ function Home() {
                     1000,
                   ]}
                 />
-              </h1>
+              </h2>
               <div className="profile-role-tagline">
                 <p className="card-text">
-                  I can help you build a product , feature or website Look through some of my work and experience!
+                  Hi,I can help you build a product , feature or website Look through some of my work and experience!
                 </p>
               </div>
             </div>
