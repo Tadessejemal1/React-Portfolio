@@ -18,8 +18,10 @@ const Contacts = () => {
 
     emailjs.sendForm('service_4g2k6jy', 'template_tqj835v', form.current, 'acwXwUXIBkVFYGc5f')
       .then((result) => {
+        // eslint-disable-next-line no-console
         console.log(result.text);
       }, (error) => {
+        // eslint-disable-next-line no-console
         console.log(error.text);
       });
     e.target.reset();

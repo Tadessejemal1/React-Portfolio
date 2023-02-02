@@ -19,8 +19,8 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'Display Movies',
-    github: 'https://github.com/Tadessejemal1/Bootstrap-4-UI-project.git',
-    demo: 'https://tadessejemal1.github.io/Bootstrap-4-UI-project/',
+    github: 'https://github.com/Tadessejemal1/JavaScript-Capstone.git',
+    demo: 'https://kumilachew-g.github.io/JavaScript-Capstone/dist/',
 
   },
   {
