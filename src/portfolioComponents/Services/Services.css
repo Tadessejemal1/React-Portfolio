@@ -79,5 +79,7 @@
   .servies-container {
     grid-template-columns: 1fr;
     gap: 1.2rem;
+    padding: 1% 12% 1% 12%;
+    margin-left: -12px;
   }
 }

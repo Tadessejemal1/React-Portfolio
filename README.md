@@ -16,7 +16,7 @@ This portfolio provides an insight into my work and experience, including Projec
 
 ## 🚀 Live Demos and Importand links <a name="live-demo"></a>
 
-- [ONLINE DEMO](https://feature-update-components--chic-queijadas-ff68a1.netlify.app/)
+[ONLINE DEMO](https://feature-update-components--chic-queijadas-ff68a1.netlify.app/)
 
 ## Getting Started
 
@@ -92,7 +92,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- We want to say thank you to [Murat Korkmaz](https://www.behance.net/muratk) on Behance the creator of this beautiful [design](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign) that we used as a guide to build our project.
+- I want to say thank you to [Murat Korkmaz](https://www.behance.net/muratk) on Behance the creator of this beautiful [design](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign) that we used as a guide to build our project.
 
 ## 📝 License
 
