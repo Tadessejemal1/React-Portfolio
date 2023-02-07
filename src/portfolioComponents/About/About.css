@@ -530,6 +530,6 @@ img {
 
   .about-text p {
     margin: 1.5rem 0;
-    text-align: center;
+    width: 120%;
   }
 }
