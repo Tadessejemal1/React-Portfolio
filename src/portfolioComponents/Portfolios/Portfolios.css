@@ -72,7 +72,6 @@
   .portfolio-container {
     grid-template-columns: 1fr;
     gap: 1rem;
-    margin-left: 0.5rem;
-    padding-left: 10%;
+    padding: 0 8% 0 8%;
   }
 }
