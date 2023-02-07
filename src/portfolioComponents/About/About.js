@@ -146,7 +146,7 @@ function About() {
                     </h3>
                     <h4 className="timeline-title">Degree</h4>
                     <p className="timeline-text">
-                      I am gratuated from mekelle university in Mechanical Engineering
+                      I graduated from Mekelle University with a degree in Mechanical Engineering.
                     </p>
                   </div>
                   <div className="timeline-item">
@@ -156,7 +156,7 @@ function About() {
                     </h3>
                     <h4 className="timeline-title">Master</h4>
                     <p className="timeline-text">
-                      I am graduated MSC in Thermal Engineering From Bahirdar University
+                      I graduated with an MSc in Thermal Engineering from Bahirdar University.
                     </p>
                   </div>
                   <div className="timeline-item">
@@ -166,7 +166,7 @@ function About() {
                     </h3>
                     <h4 className="timeline-title">Degree</h4>
                     <p className="timeline-text">
-                      I am graduated from Bahirdar University in Computer Science
+                      I graduated from Bahirdar University with a degree in Computer Science.
                     </p>
                   </div>
                   <div className="timeline-item">
@@ -176,7 +176,7 @@ function About() {
                     </h3>
                     <h4 className="timeline-title">Full-Stack Developer</h4>
                     <p className="timeline-text">
-                      I am graduated from Microverse
+                      I have graduated from Microverse, an online school, as a full stack developer.
                     </p>
                   </div>
                 </div>
@@ -196,8 +196,7 @@ function About() {
                     <h4 className="timeline-title">Assistance Lecturer</h4>
                     <p className="timeline-text">
                       {' '}
-                      I have One years Work Experience as Assistance Lecturer Position from DebreTabor University in Mechanical Engineering
-                      Department.
+                      I have one year&apos;s of work experience in the position of Assistant Lecturer from DebreTabor University in the Department of Mechanical Engineering.
                       <br />
                     </p>
                   </div>
@@ -208,8 +207,7 @@ function About() {
                     </h3>
                     <h4 className="timeline-title">Lecturer</h4>
                     <p className="timeline-text">
-                      I have 4 year&apos;s Work Experience as Lecturer Position from DebreTabor University in Mechanical Engineering
-                      Department.
+                      I have four year&apos;s of work experience as a Lecturer at DebreTabor University in the Mechanical Engineering Department.
                       {' '}
                       <br />
                     </p>
@@ -221,7 +219,7 @@ function About() {
                     </h3>
                     <h4 className="timeline-title">Front End Developer</h4>
                     <p className="timeline-text">
-                      I have two years of work experience in the design of Responsive websites using Front End Technology.
+                      I have two years of work experience designing Responsive websites using Front End Technology.
                       {' '}
                       <br />
                     </p>
