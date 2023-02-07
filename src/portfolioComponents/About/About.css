@@ -445,8 +445,8 @@ img {
 
 .timeline-text {
   line-height: 25px;
+  word-spacing: normal;
   font-size: 14px;
-  text-align: justify;
   color: var(--text-black-700);
   width: 100%;
 }
