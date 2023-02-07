@@ -448,7 +448,7 @@ img {
   font-size: 14px;
   text-align: justify;
   color: var(--text-black-700);
-  width: 115%;
+  width: 100%;
 }
 
 .icon {
