@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
@@ -9,10 +10,10 @@ const Navbar = () => {
     <div className="app__navbar">
       <nav className="app__navbar">
         <div className="app__navbar_left">
-          <h1>Tadesse</h1>
+          <h1>Matiyas Yenew</h1>
         </div>
         <ul className="app__navbar-link">
-          <li className="p_open"><a href="#Home">Home</a></li>
+          <li className="p_open"><a href="#home">Home</a></li>
           <li className="p_open"><a href="#about">About</a></li>
           <li className="p_open"><a href="#servies">Services</a></li>
           <li className="p_open"><a href="#portfolios">Portfolios</a></li>

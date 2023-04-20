@@ -16,8 +16,6 @@ This portfolio provides an insight into my work and experience, including Projec
 
 ## 🚀 Live Demos and Importand links <a name="live-demo"></a>
 
-[ONLINE DEMO](https://feature-update-components--chic-queijadas-ff68a1.netlify.app/)
-
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
